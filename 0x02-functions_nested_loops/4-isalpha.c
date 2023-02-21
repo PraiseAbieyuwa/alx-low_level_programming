@@ -5,7 +5,7 @@
  *
  * @c: parameter to be checked
  *
- *  Return 1 if it is an alphabet
+ *  Return: 1 if it is an alphabet
  *  and 0 otherwise
  */
 
