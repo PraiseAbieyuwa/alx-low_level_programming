@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - function that checks for uppercase
+ * _isupper - function that checks for uppercase
  *
  * @c: char to check
  *
- * Return - Return
+ * Return: Return 0
  */
 
 int _isupper(int c)
