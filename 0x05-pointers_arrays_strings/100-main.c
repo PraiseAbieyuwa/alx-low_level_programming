@@ -3,7 +3,6 @@
 
 /**
  * main - check the code
- * @_atoi: function used to declare 
  *
  * Return: Always 0.
  */
