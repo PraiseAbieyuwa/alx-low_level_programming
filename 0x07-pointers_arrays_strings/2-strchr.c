@@ -1,5 +1,5 @@
 #include "main.h"
-#define NULL 0
+#include <stddef.h>
 
 /**
  * _strchr - function used to know the strings of char
@@ -9,14 +9,13 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	unsigned int i;
 
-	while (s[i] != '\0' && s[i] != c)
+	while ( s[i] != '\0'; && s[i] != c)
 		i++;
 
 	if (s[i] == c)
 		return (&s[i]);
 	else
 		return (NULL);
-
 }
