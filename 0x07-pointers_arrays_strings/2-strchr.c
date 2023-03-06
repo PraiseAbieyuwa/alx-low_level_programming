@@ -1,21 +1,19 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr - function used to know the strings of char
  * @s: string
  * @c: character
- * Return: return character
+ * Return: return 0
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
+	int i = 0;
 
-	while ( s[i] != '\0'; && s[i] != c)
-		i++;
-
-	if (s[i] == c)
-		return (&s[i]);
-	else
-		return (NULL);
+	for (; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+			return (&s[i]);
+	}
+		return (0);
 }
