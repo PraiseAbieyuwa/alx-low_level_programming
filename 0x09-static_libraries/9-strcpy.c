@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _strncpy - function that copies the pointed string
+ * *_strcpy - function that copies the pointed string
  * @dest: parameter to append
  * @src: src parameter
- * @n: integer
- * Return: return dest char
+ * Return: return string
  */
 char *_strcpy(char *dest, char *src)
 {
-	int a = 0;
+	int 1 = 0;
 	int b = 0;
 
 	while (*(src + 1) != '\0')
