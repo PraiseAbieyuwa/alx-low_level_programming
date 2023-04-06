@@ -4,7 +4,6 @@
  * add_node_end - function that add node at the end of the list
  * @str:string
  * @head:pointer to the first nodes
- * @lengthO: length of elements
  * Return:return head
  */
 list_t *add_node_end(list_t **head, const char *str)
