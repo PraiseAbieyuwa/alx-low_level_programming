@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * read_textfile - function that read the text in the files
- * @letters: the letters in the index
+ * read_textfile - function that reads the text in the files
+ * @letters: the element in the files
  * @filename: name of the files
  * Return: return writeFilenames
  */
