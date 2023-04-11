@@ -9,12 +9,13 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
+	 unsigned long int bites;
 	if (index >= sizeof(unsigned long int) * 8)
 	{
 		return (-1);
 	}
 
-	unsigned long int bites = n >> index;
+	bites = n >> index;
 
 	bites &= 1;
 	return (bites);
